@@ -1,0 +1,21 @@
+{
+  "title": "Kibana helper",
+  "name": "kibanarowhelper",
+  "version": "0.0.1",
+  "description": "Helps you fetch adjacent rows in kibana",
+  "main": "index.js",
+  "author": "Martin Almen",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "moment": "^2.15.1",
+    "rison": "^0.1.1"
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            input[type="text"] {
+                width: 30px; 
+            }
+            td {
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <meta charset="UTF-8">
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <label for="timeAmountBefore">Time before:</label>
+                </td>
+                <td>
+                    <input type="text" value="1" name="timeAmountBefore" id="timeAmountBefore"/>
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    <label for="timeAmountAfter">Time after:</label>
+                </td>
+                <td>
+                    <input type="text" value="1" name="timeAmountAfter" id="timeAmountAfter"/>
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    <label for="timeUnit">Timeunit (h,m,s,ms):</label>
+                </td>
+                <td>
+                    <input type="text" value="s" name="timeUnit" id="timeUnit"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    From:
+                </td>
+                <td>
+                    <span id="fromTimePreview"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    To:
+                </td>
+                <td>
+                    <span id="toTimePreview"></span>            
+                </td>
+            </tr>
+        </table>
+        <input type="button" name="btnFetchRows" id="btnFetchRows" value="Fetch rows">
+        <!--
+        <div>
+            <label for="timeAmount">Tidsmängd</label><input type="text" value="1" name="timeAmount" />
+        </div>
+        <div>
+            <label for="timeUnit">Tidsenhet (h,m,s,ms)</label><input type="text" value="s" name="timeUnit" />
+        </div>
+        Från:
+        <div id="fromTimePreview"></div>
+        Till:
+        <div id="toTimePreview"></div>-->
+    </body>
+</html>
